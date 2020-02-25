@@ -27,4 +27,18 @@ public class Character {
         this.guild = guild;
     }
 
+    //|||Methods|||
+
+    //|||Accessors|||
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Guild getGuild() {
+        return guild;
+    }
 }
