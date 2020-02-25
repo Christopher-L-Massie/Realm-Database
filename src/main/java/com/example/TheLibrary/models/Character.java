@@ -5,6 +5,8 @@ import javax.persistence.*;
 @Entity
 public class Character {
 
+    //|||Properties|||
+
     @Id
     @GeneratedValue
     private int id;
@@ -15,5 +17,14 @@ public class Character {
 
     @ManyToOne(cascade = CascadeType.ALL)
     private Guild guild;
+
+    //|||Constructors|||
+    public Character() {}
+
+    public Character(String name, int age, Guild guild){
+        this.name = name;
+        this.age = age;
+        this.guild = guild;
+    }
 
 }
