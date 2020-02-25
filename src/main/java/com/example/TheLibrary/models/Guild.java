@@ -27,4 +27,20 @@ public class Guild {
         this.name = name;
         this.motto = motto;
     }
+
+    //|||Methods|||
+
+    //|||Accessors|||
+
+    public String getName() {
+        return name;
+    }
+
+    public String getMotto() {
+        return motto;
+    }
+
+    public List<Character> getMembers() {
+        return members;
+    }
 }
