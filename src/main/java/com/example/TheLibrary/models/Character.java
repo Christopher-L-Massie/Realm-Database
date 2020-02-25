@@ -15,30 +15,37 @@ public class Character {
 
     private int age;
 
+    private String characterClass;
+
     @ManyToOne(cascade = CascadeType.ALL)
     private Guild guild;
 
     //|||Constructors|||
     public Character() {}
 
-    public Character(String name, int age, Guild guild){
+    public Character(String name, int age, Guild guild,String characterClass){
         this.name = name;
         this.age = age;
         this.guild = guild;
+        this.characterClass = characterClass;
     }
 
     //|||Methods|||
 
     //|||Accessors|||
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public int getAge() {
-        return age;
+        return this.age;
     }
 
     public Guild getGuild() {
-        return guild;
+        return this.guild;
+    }
+
+    public String getCharacterClass(){
+        return this.characterClass;
     }
 }
