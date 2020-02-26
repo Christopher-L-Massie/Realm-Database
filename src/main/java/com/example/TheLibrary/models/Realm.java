@@ -17,4 +17,10 @@ public class Realm {
 
     @OneToMany(cascade = CascadeType.ALL)
     private List<Faction> factions = new ArrayList<>();
+
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Guild> guilds = new ArrayList<>();
+
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Character> characters = new ArrayList<>();
 }
