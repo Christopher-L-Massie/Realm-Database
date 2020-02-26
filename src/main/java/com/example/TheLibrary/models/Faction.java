@@ -25,6 +25,7 @@ public class Faction {
     private Realm realm;
 
     //|||Constructors|||
+    
     public Faction(){}
 
     public Faction(String name, Realm realm){
@@ -32,4 +33,39 @@ public class Faction {
         this.realm = realm;
     }
 
+    //|||Methods|||
+
+    //|||Accessors|||
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<Character> getCharacters() {
+        return characters;
+    }
+
+    public void setCharacters(List<Character> characters) {
+        this.characters = characters;
+    }
+
+    public List<Guild> getGuilds() {
+        return guilds;
+    }
+
+    public void setGuilds(List<Guild> guilds) {
+        this.guilds = guilds;
+    }
+
+    public Realm getRealm() {
+        return realm;
+    }
+
+    public void setRealm(Realm realm) {
+        this.realm = realm;
+    }
 }
