@@ -54,5 +54,21 @@ public enum classicRealmData {
         this.type = type;
     }
 
+    //|||Accessors|||
 
+    public String getName() {
+        return name;
+    }
+
+    public String getTimeZone() {
+        return timeZone;
+    }
+
+    public String getRegion() {
+        return region;
+    }
+
+    public String getType() {
+        return type;
+    }
 }
