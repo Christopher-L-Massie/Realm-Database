@@ -20,4 +20,7 @@ public class Faction {
 
     @OneToMany(cascade = CascadeType.ALL)
     private List<Guild> guilds = new ArrayList<>();
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Realm realm;
 }
