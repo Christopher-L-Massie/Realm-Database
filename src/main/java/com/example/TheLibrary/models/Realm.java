@@ -23,4 +23,13 @@ public class Realm {
 
     @OneToMany(cascade = CascadeType.ALL)
     private List<Character> characters = new ArrayList<>();
+
+    //|||Constructors|||
+    public Realm(){}
+
+    public Realm(String name){
+        this.name = name;
+    }
+
+    
 }
