@@ -3,6 +3,7 @@ package com.example.TheLibrary.models;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TimeZone;
 
 @Entity
 public class Realm {
@@ -14,6 +15,8 @@ public class Realm {
     private int id;
 
     private String name;
+
+    private TimeZone timeZone;
 
     @OneToMany(cascade = CascadeType.ALL)
     private List<Faction> factions = new ArrayList<>();
@@ -27,8 +30,9 @@ public class Realm {
     //|||Constructors|||
     public Realm(){}
 
-    public Realm(String name){
+    public Realm(String name,String timezone){
         this.name = name;
+        timeZone = timeZone.getTimeZone(timezone);
     }
 
     //|||Methods|||
@@ -48,5 +52,9 @@ public class Realm {
 
     public List<Character> getCharacters() {
         return characters;
+    }
+
+    public TimeZone getTimeZone(){
+        return this.timeZone;
     }
 }
