@@ -35,8 +35,12 @@ public enum classicRealmNames {
     ARUGAL,
     FELSTRIKER,
     REMULOS,
-    YOJAMBA,
+    YOJAMBA;
 
-
+    //|||Properties||
+    private String name;
+    private String timeZone;
+    private String region;
+    private String type;
 
 }
