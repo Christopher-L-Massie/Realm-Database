@@ -2,6 +2,8 @@ package com.example.TheLibrary.models.constants;
 
 public enum classicRealmNames {
 
+    //|||Values|||
+
     ASHKANDI,
     ATIESH,
     AZURESONG,
@@ -42,5 +44,15 @@ public enum classicRealmNames {
     private String timeZone;
     private String region;
     private String type;
+
+    ///|||Constructors|||
+
+    classicRealmNames(String name, String timeZone, String region, String type){
+        this.name = name;
+        this.timeZone = timeZone;
+        this.region = region;
+        this.type = type;
+    }
+
 
 }
