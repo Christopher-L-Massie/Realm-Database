@@ -20,14 +20,18 @@ public class Character {
     @ManyToOne(cascade = CascadeType.ALL)
     private Guild guild;
 
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Realm realm;
+
     //|||Constructors|||
     public Character() {}
 
-    public Character(String name, int age, Guild guild,String characterClass){
+    public Character(String name, int age, Guild guild,String characterClass, Realm realm){
         this.name = name;
         this.age = age;
         this.guild = guild;
         this.characterClass = characterClass;
+        this.realm = realm;
     }
 
     //|||Methods|||
@@ -48,4 +52,6 @@ public class Character {
     public String getCharacterClass(){
         return this.characterClass;
     }
+
+    public Realm getRealm() {return this.realm;}
 }
