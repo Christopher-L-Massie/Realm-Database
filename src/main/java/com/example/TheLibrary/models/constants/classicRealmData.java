@@ -1,6 +1,6 @@
 package com.example.TheLibrary.models.constants;
 
-public enum classicRealmNames {
+public enum classicRealmData {
 
     //|||Values|||
 
@@ -47,7 +47,7 @@ public enum classicRealmNames {
 
     ///|||Constructors|||
 
-    classicRealmNames(String name, String timeZone, String region, String type){
+    classicRealmData(String name, String timeZone, String region, String type){
         this.name = name;
         this.timeZone = timeZone;
         this.region = region;
