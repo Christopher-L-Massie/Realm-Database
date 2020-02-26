@@ -31,5 +31,22 @@ public class Realm {
         this.name = name;
     }
 
-    
+    //|||Methods|||
+
+    //|||Accessors|||
+    public String getName() {
+        return name;
+    }
+
+    public List<Faction> getFactions() {
+        return factions;
+    }
+
+    public List<Guild> getGuilds() {
+        return guilds;
+    }
+
+    public List<Character> getCharacters() {
+        return characters;
+    }
 }
