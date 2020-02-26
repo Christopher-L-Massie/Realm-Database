@@ -17,7 +17,8 @@ public class Guild {
 
     private String motto;
 
-    private boolean isHorde;
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Faction faction;
 
     @OneToMany(cascade = CascadeType.ALL)
     private List<Character> members = new ArrayList<>();
@@ -25,10 +26,10 @@ public class Guild {
     //|||Constructors|||
     public Guild(){}
 
-    public Guild(String name, String motto, boolean isHorde){
+    public Guild(String name, String motto, Faction faction){
         this.name = name;
         this.motto = motto;
-        this.isHorde = isHorde;
+        this.faction = faction;
     }
 
     //|||Methods|||
@@ -46,8 +47,8 @@ public class Guild {
     public List<Character> getMembers() {
         return members;
     }
-    
-    public boolean getIsHorde(){
-        return this.isHorde;
+
+    public Faction getFaction(){
+        return this.faction;
     }
 }
