@@ -23,4 +23,13 @@ public class Faction {
 
     @ManyToOne(cascade = CascadeType.ALL)
     private Realm realm;
+
+    //|||Constructors|||
+    public Faction(){}
+
+    public Faction(String name, Realm realm){
+        this.name = name;
+        this.realm = realm;
+    }
+
 }
