@@ -18,6 +18,8 @@ public class Realm {
 
     private TimeZone timeZone;
 
+    private String region;
+
     @OneToMany(cascade = CascadeType.ALL)
     private List<Faction> factions = new ArrayList<>();
 
@@ -30,9 +32,10 @@ public class Realm {
     //|||Constructors|||
     public Realm(){}
 
-    public Realm(String name,String timezone){
+    public Realm(String name,String timezone, String region){
         this.name = name;
-        timeZone = timeZone.getTimeZone(timezone);
+        this.timeZone = this.timeZone.getTimeZone(timezone);
+        this.region = region;
     }
 
     //|||Methods|||
