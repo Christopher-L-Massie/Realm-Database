@@ -33,3 +33,4 @@ Realm-Database is an attempt at making a program to help players in MMORPGs keep
 
 # Dedication
 
+This Project is built for the people of Deviate Delight RP-PVP on World of Warcraft:Classic who made the experience a truly unforgetable one. Hopefully this project will allow them to save their stories and expand upon them forever!
