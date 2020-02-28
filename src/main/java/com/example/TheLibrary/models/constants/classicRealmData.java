@@ -4,54 +4,30 @@ public enum classicRealmData {
 
     //|||Values|||
 
-    ASHKANDI,
-    ATIESH,
-    AZURESONG,
-    MANKRIK,
-    MYZRAEL,
-    OLD_BLANCHY,
-    PAGLE,
-    WESTFALL,
-    WINDSEEKER,
-    BENEDICITION,
-    BIGGLESWORTH,
-    BLAUMEUX,
-    FAERLINA,
-    FAIRBANKS,
-    HEROD,
-    INCENDIUS,
-    KIRTONOS,
-    KURINAXX,
-    KROMCRUSH,
-    RATTLEGORE,
-    SKERAM,
-    SMOLDERWEB,
-    STALAGG,
-    SULFURAS,
-    THALNOS,
-    THUNDERFURY,
-    WHITEMANE,
-    BLOODSAIL_BUCCANEERS,
-    DEVIATE_DELIGHT,
-    GROBBULUS,
-    ARUGAL,
-    FELSTRIKER,
-    REMULOS,
-    YOJAMBA;
+    //Americas & Oceania
+
+    ANATHEMA("ANATHEMA"),
+    ARCANITEREAPER,
+    ARUGAL
+
 
     //|||Properties||
     private String name;
     private String timeZone;
     private String region;
     private String type;
+    private String population;
+    private String locale;
 
     ///|||Constructors|||
 
-    classicRealmData(String name, String timeZone, String region, String type){
+    classicRealmData(String name, String type, String population, String timeZone, String locale){
         this.name = name;
         this.timeZone = timeZone;
         this.region = region;
         this.type = type;
+        this.population = population;
+        this.locale = locale;
     }
 
     //|||Accessors|||
