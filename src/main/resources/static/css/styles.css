@@ -247,6 +247,32 @@ header {
     color: white;
 }
 
+.history-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #937666;
+    box-shadow: 0 2px 2px #937666;
+    color: black;
+}
+
+.history-box div {
+    padding: 15px;
+    border-bottom: 1px solid #937666;
+}
+
+.history-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.history-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
 /*-------------------------------------*/
 /* Footer */
 /*------------------------------------*/
