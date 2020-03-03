@@ -228,6 +228,11 @@ header {
     margin-bottom: 30px;
 }
 
+.section-about a,
+.section-about h3 {
+    margin-left: 2em;
+}
+
 /*-------------------------------------*/
 /* Delete when finished */
 /*------------------------------------*/
