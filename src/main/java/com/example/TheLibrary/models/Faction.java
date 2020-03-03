@@ -25,7 +25,7 @@ public class Faction {
     private Realm realm;
 
     //|||Constructors|||
-    
+
     public Faction(){}
 
     public Faction(String name, Realm realm){
