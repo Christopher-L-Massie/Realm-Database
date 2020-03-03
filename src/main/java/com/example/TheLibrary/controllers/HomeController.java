@@ -10,7 +10,7 @@ public class HomeController {
 
     @RequestMapping(value = "")
     public String displayIndex(Model model){
-        model.addAttribute("title", "Realm Selection");
+        model.addAttribute("title", "Deviate Delight");
 
         return "home/index";
     }
