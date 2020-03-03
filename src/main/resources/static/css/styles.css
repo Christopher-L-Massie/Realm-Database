@@ -170,6 +170,22 @@ header {
     background-attachment: fixed;
 }
 
+.home-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
 /*-------------------------------------*/
 /* Delete when finished */
 /*------------------------------------*/
