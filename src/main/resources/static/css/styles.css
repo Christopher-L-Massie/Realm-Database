@@ -325,7 +325,10 @@ footer {
     font-size: 160%;
 }
 
-
+#contribute-btn {
+    margin-top: 3em;
+    margin-left: 45.9em;
+}
 
 /*-------------------------------------*/
 /* Delete when finished */
