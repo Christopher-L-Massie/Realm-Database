@@ -253,7 +253,8 @@ header {
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
-    margin-left: 5%;
+    margin-top: 15%;
+    margin-left: 6.5%;
     -webkit-box-shadow: 0 2px 2px #937666;
     box-shadow: 0 2px 2px #937666;
     color: black;
@@ -262,6 +263,11 @@ header {
 .history-box div {
     padding: 15px;
     border-bottom: 1px solid #937666;
+}
+
+.section-history p {
+    text-align: center;
+    margin: 6% 0 0 0;
 }
 
 .history-box div:first-child {
@@ -374,8 +380,8 @@ footer {
 }
 
 #contribute-btn {
-    margin-top: 3em;
-    margin-left: 45.9em;
+    margin-top: 6%;
+    margin-left: 46.7%;
 }
 
 /*-------------------------------------*/
