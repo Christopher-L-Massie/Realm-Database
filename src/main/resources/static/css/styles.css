@@ -233,6 +233,8 @@ header {
     margin-left: 2em;
 }
 
+
+
 /*-------------------------------------*/
 /* History Section */
 /*------------------------------------*/
@@ -271,6 +273,24 @@ header {
 .history-box div:last-child {
     text-align: center;
     border: 0;
+}
+
+/*-------------------------------------*/
+/* Calendar Section */
+/*------------------------------------*/
+
+.section-event-calendar h3 {
+    margin-bottom: 30px;
+}
+
+.section-event-calendar img {
+    height: 200px;
+    width: 100px;
+}
+
+.section-event-calendar iframe {
+    height: 200px;
+    width: 100px;
 }
 
 /*-------------------------------------*/
