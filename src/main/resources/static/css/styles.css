@@ -279,33 +279,24 @@ header {
 /* Calendar Section */
 /*------------------------------------*/
 
+.section-event-calendar {
+    color: black;
+}
 
-.section-event-calendar h3 {
+
+.section-event-calendar h2 {
     margin-bottom: 30px;
+    text-align: center;
 }
 
-.section-event-calendar img {
-    height: 600px;
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 
 .section-event-calendar iframe {
     height: 600px;
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 700px;
+    margin-left: 31%;
 }
 
-.calendar-box {
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 
 /*-------------------------------------*/
 /* Footer */
