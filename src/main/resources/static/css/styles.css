@@ -279,18 +279,32 @@ header {
 /* Calendar Section */
 /*------------------------------------*/
 
+
 .section-event-calendar h3 {
     margin-bottom: 30px;
 }
 
 .section-event-calendar img {
-    height: 200px;
+    height: 600px;
     width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .section-event-calendar iframe {
-    height: 200px;
+    height: 600px;
     width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.calendar-box {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /*-------------------------------------*/
