@@ -14,4 +14,11 @@ public class AccountController {
 
         return "account/user-login";
     }
+
+    @RequestMapping(value = "signup")
+    public String displaySignup(Model model){
+        model.addAttribute("title","Sign up");
+
+        return "account/user-enter-code";
+    }
 }
