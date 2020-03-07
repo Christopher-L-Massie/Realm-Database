@@ -422,6 +422,11 @@ footer {
 
 }
 
+.box-register input {
+    margin-top: 3%;
+    display: block;
+}
+
 /*-------------------------------------*/
 /* Delete when finished */
 /*------------------------------------*/
