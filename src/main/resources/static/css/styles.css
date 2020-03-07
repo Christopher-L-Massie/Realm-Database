@@ -388,6 +388,40 @@ footer {
     margin-left: 46.7%;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* user-enter-code.html STYLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*-------------------------------------*/
+/* Access Section */
+/*------------------------------------*/
+
+.section-access {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-one.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-one.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+}
+
+.box-register {
+    background: white;
+    color: black;
+    margin-left:15%;
+    margin-right:15%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 2px #937666;
+    box-shadow: 0 2px 2px #937666;
+
+}
+
+#accessCode {
+    text-align: center;
+
+}
+
 /*-------------------------------------*/
 /* Delete when finished */
 /*------------------------------------*/
