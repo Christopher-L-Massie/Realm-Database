@@ -446,12 +446,13 @@ footer {
 }
 
 .box-login {
-    background: white;
+    background-image: url(img/paper-bg-one.png);
+    background-image: url(img/paper-bg-one.png);
     color: black;
     margin-top: 5%;
     margin-left:35%;
     margin-right:35%;
-    border-radius: 5px;
+    border-radius: 25px;
     -webkit-box-shadow: 0 2px 2px #937666;
     box-shadow: 0 2px 2px #937666;
 }
@@ -461,6 +462,9 @@ footer {
     margin-bottom: 3%;
     display: block;
     text-align: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 2px 2px #937666;
+    box-shadow: 0 2px 2px #937666;
 }
 
 .box-login h2 {
@@ -472,13 +476,16 @@ footer {
 }
 
 .box-login label {
+    margin-top: 15%;
+    margin-bottom: 15%;
     margin-left: 90%;
     text-align:center;
 }
 
 #login-submit-btn {
     margin-left: 83%;
-    margin-top: 10%;
+    margin-top: 40%;
+    margin-bottom: 40%;
 }
 
 .box-login p:after {
