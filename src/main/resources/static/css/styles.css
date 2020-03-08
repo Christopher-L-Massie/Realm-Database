@@ -393,10 +393,10 @@ footer {
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*-------------------------------------*/
-/* Access Section */
+/* Register Section */
 /*------------------------------------*/
 
-.section-access {
+.section-register {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-one.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-one.jpg);
     background-size: cover;
@@ -407,14 +407,15 @@ footer {
 }
 
 .box-register {
-    background: white;
+    background-image: url(img/paper-bg-one.png);
+    background-image: url(img/paper-bg-one.png);
     color: black;
-    margin-left:15%;
-    margin-right:15%;
-    border-radius: 5px;
+    margin-top: 5%;
+    margin-left:35%;
+    margin-right:35%;
+    border-radius: 25px;
     -webkit-box-shadow: 0 2px 2px #937666;
     box-shadow: 0 2px 2px #937666;
-
 }
 
 #accessCode {
@@ -425,6 +426,41 @@ footer {
 .box-register input {
     margin-top: 3%;
     display: block;
+}
+
+.box-register p:after {
+    display: block;
+    height: 2px;
+    background-color: #937666;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.box-login input {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 2px 2px #937666;
+    box-shadow: 0 2px 2px #937666;
+}
+
+.box-register h2 {
+    margin-top: 5%;
+}
+
+.box-register form {
+    margin-left: 30%;
+}
+
+.box-register label {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    text-align:center;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -512,6 +548,7 @@ footer {
     margin-top: 5%;
     margin-left: 46.9%;
 }
+
 
 /*-------------------------------------*/
 /* Delete when finished */
