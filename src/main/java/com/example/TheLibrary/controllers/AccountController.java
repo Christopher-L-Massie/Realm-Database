@@ -21,4 +21,11 @@ public class AccountController {
 
         return "account/user-enter-code";
     }
+
+    @RequestMapping(value = "setPass")
+    public String displaySetPassword(Model model){
+        model.addAttribute("title","Set Password");
+
+        return "account/user-set-password";
+    }
 }
