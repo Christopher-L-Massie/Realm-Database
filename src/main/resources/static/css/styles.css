@@ -410,7 +410,7 @@ footer {
     background-image: url(img/paper-bg-one.png);
     background-image: url(img/paper-bg-one.png);
     color: black;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left:35%;
     margin-right:35%;
     border-radius: 25px;
@@ -420,6 +420,7 @@ footer {
 
 #accessCode {
     text-align: center;
+    margin-left: -2.7%;
 
 }
 
@@ -438,7 +439,7 @@ footer {
     margin-top: 30px;
 }
 
-.box-login input {
+.box-register input {
     margin-top: 3%;
     margin-bottom: 3%;
     display: block;
@@ -446,10 +447,11 @@ footer {
     border-radius: 25px;
     -webkit-box-shadow: 0 2px 2px #937666;
     box-shadow: 0 2px 2px #937666;
+
 }
 
 .box-register h2 {
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .box-register form {
@@ -459,13 +461,27 @@ footer {
 .box-register label {
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 15%;
+    margin-left: 14.6%;
     text-align:center;
 }
 
 #submitCode {
-    margin-left: 3%;
     margin-top: 7%;
+    margin-left: 1%;
+}
+
+.direct-register-howTo a {
+    font-size: 80%;
+    margin-left: -17%;
+    margin-bottom: 20%;
+}
+
+.box-register h6 {
+    margin-bottom: 10%;
+}
+
+.direct-register-howTo {
+    margin-left: 46.9%;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
