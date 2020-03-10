@@ -166,8 +166,8 @@ input[type=submit]:active {
 /*------------------------------------*/
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/hero-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-two.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-2.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -244,8 +244,8 @@ header {
 /*------------------------------------*/
 
 .section-history {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-one.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-one.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -315,8 +315,8 @@ header {
 /*------------------------------------*/
 
 .section-discussion {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/discussion-bg-one.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/discussion-bg-one.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-11.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-11.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -397,8 +397,8 @@ footer {
 /*------------------------------------*/
 
 .section-register {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-four.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-four.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-4.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -464,7 +464,8 @@ footer {
 }
 
 #submitCode {
-    margin-left: 3.5%;
+    margin-left: 3%;
+    margin-top: 7%;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -476,8 +477,8 @@ footer {
 /*------------------------------------*/
 
 .section-user-login {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-one.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-one.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/background-10.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/background-10.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
