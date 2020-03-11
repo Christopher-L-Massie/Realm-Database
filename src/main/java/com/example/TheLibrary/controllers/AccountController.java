@@ -28,4 +28,11 @@ public class AccountController {
 
         return "account/user-set-password";
     }
+
+    @RequestMapping(value = "manage")
+    public String displayAccountManagement(Model model){
+        model.addAttribute("title","Account Management");
+
+        return "account/user-account-management";
+    }
 }
