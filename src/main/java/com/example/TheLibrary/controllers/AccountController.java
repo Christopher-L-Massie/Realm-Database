@@ -16,10 +16,10 @@ public class AccountController {
     }
 
     @RequestMapping(value = "register")
-    public String displaySignup(Model model){
-        model.addAttribute("title","Sign up");
+    public String displayRegister(Model model){
+        model.addAttribute("title","Register");
 
-        return "account/user-enter-code";
+        return "account/user-register";
     }
 
     @RequestMapping(value = "setPass")
