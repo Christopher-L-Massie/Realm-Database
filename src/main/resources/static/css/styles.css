@@ -544,6 +544,10 @@ footer {
     text-align:center;
 }
 
+.box-set-password span {
+    color: red;
+}
+
 .box-set-password p:after {
     display: block;
     height: 2px;
