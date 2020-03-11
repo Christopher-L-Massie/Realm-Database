@@ -520,6 +520,52 @@ footer {
     box-shadow: 0 2px 2px #937666;
 }
 
+.box-set-password input {
+    margin-bottom: 3%;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 2px 2px #937666;
+    box-shadow: 0 2px 2px #937666;
+}
+
+.box-set-password h2 {
+    margin-top: 5%;
+}
+
+.box-set-password form {
+    margin-left: 29%;
+}
+
+.box-set-password label {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    text-align:center;
+}
+
+.box-set-password p:after {
+    display: block;
+    height: 2px;
+    background-color: #937666;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#confirmPasswordStyle {
+    margin-left: 9%;
+}
+
+#newPasswordStyle {
+    margin-left: 12%;
+}
+
+#submitNewPass {
+    margin-left: 8%;
+    margin-top: 7%;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * user-login.html STYLES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
