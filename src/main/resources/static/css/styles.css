@@ -738,13 +738,13 @@ footer {
 
 #account-management-sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #3D3A4B;
 }
 
 .section-account-management ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #3D3A4B;
 }
 
 #account-management-sidebar.active{
