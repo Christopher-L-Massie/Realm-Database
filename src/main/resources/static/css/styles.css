@@ -677,7 +677,7 @@ footer {
 .box-account-management {
     background-color: white;
     color: black;
-    margin-top: 5%;
+    margin-top: -.5%;
     margin-right: 5%;
     margin-left: 5%;
     border-radius: 25px;
@@ -705,6 +705,7 @@ footer {
     color: #fff;
     transition: all 0.3s;
     border-radius: 25px 0px 0px 25px;
+    height: 825px;
 
 }
 
@@ -747,7 +748,14 @@ footer {
 }
 
 #account-management-sidebar.active{
+    transition: margin-left .01s;
     margin-left: -250px;
+    -webkit-transition: opacity .01s ease-in-out;
+    -moz-transition: opacity .01s ease-in-out;
+    -ms-transition: opacity .01s ease-in-out;
+    -o-transition: opacity .01s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
 }
 
 a[data-toggle="collapse"] {
