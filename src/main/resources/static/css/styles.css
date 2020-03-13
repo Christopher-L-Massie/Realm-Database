@@ -685,6 +685,7 @@ footer {
     box-shadow: 0 2px 2px #937666;
 }
 
+
 .wrapper {
     display: flex;
     align-items: stretch:
@@ -756,6 +757,12 @@ footer {
     -o-transition: opacity .01s ease-in-out;
     opacity: 0;
     overflow: hidden;
+}
+
+#sidebarCollapse {
+    margin-left: -180%;
+    height: 50px;
+    width: 50px;
 }
 
 a[data-toggle="collapse"] {
