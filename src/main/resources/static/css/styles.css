@@ -687,7 +687,6 @@ footer {
 
 .wrapper {
     display: flex;
-    width: 100%;
     align-items: stretch:
 }
 
@@ -705,12 +704,14 @@ footer {
     background: #7386D5;
     color: #fff;
     transition: all 0.3s;
+    border-radius: 25px 0px 0px 25px;
 
 }
 
 #account-management-sidebar .account-management-sidebar-header {
     padding: 20px;
     background: #6d7fcc;
+    border-radius: 25px 0px 0px 0px;
 }
 
 #account-management-sidebar ul.components {
