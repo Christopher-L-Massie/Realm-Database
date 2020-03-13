@@ -93,7 +93,8 @@
                 <div class="container-fluid">
 
 
-                    <ion-icon id="sidebarCollapse" name="chevron-back-outline"></ion-icon>
+                    <ion-icon class="activeIcon" id="sidebarCollapse" name="chevron-back-outline"></ion-icon>
+                    <ion-icon id="sidebarExpand" name="chevron-forward-outline"></ion-icon>
 
 
                 </div>
@@ -131,6 +132,15 @@
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
                 $('#account-management-sidebar').toggleClass('active');
+                $('#sidebarCollapse').toggleClass('activeIcon');
+                $('#sidebarExpand').toggleClass('activeIcon');
+            });
+        });
+        $(document).ready(function () {
+            $('#sidebarExpand').on('click', function() {
+                $('#account-management-sidebar').toggleClass('active');
+                $('#sidebarCollapse').toggleClass('activeIcon');
+                $('#sidebarExpand').toggleClass('activeIcon');
             });
         });
 </script>
