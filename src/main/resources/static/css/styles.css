@@ -760,9 +760,22 @@ footer {
 }
 
 #sidebarCollapse {
-    margin-left: -180%;
+    visibility: hidden;
+    margin-left: -105%;
     height: 50px;
     width: 50px;
+}
+
+#sidebarExpand {
+    visibility: hidden;
+    margin-left: -105%;
+    height: 50px;
+    width: 50px;
+}
+
+#sidebarExpand.activeIcon,
+#sidebarCollapse.activeIcon {
+    visibility: visible;
 }
 
 a[data-toggle="collapse"] {
