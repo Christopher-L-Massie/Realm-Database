@@ -799,6 +799,42 @@ a[data-toggle="collapse"] {
     }
 }
 
+.selectedContent {
+    visibility: visible;
+}
+
+/*-------------------------------------*/
+/* !SELECTED - Password Settings Content! */
+/*------------------------------------*/
+
+#content-password-settings{
+    visibility: hidden;
+    margin-left: 100%;
+}
+
+#content-password-settings,
+#content-password-settings h1 {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------------------------*/
+/* !SELECTED - Grant Access Content! */
+/*------------------------------------*/
+
+#content-grant-access{
+    visibility: hidden;
+    margin-left: 100%;
+}
+
+#content-grant-access,
+#content-grant-access h1 {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
 /*-------------------------------------*/
 /* Delete when finished */
 /*------------------------------------*/
