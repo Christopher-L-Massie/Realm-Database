@@ -812,6 +812,8 @@ a[data-toggle="collapse"] {
     margin-left: 100%;
 }
 
+#content-password-settings.selectedContent {visibility: visible;}
+
 #content-password-settings,
 #content-password-settings h1 {
     color: black;
