@@ -72,11 +72,11 @@
                             <a href="#">Email</a>
                         </li>
                         <li>
-                            <a href="#">Password</a>
+                            <a id="selected-password-settings" href="#">Password</a>
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li id="selected-grant-access">
                     <a href="#">Grant Access</a>
                 </li>
                 <li>
@@ -100,6 +100,16 @@
                 </div>
             </nav>
 
+            <div id="content-password-settings" class="container-fluid">
+                <div class="row">
+                    <h1>Password Settings</h1>
+                </div>
+            </div>
+            <div id="content-grant-access" class="container-fluid">
+                <div class="row">
+                    <h1>Grant Access</h1>
+                </div>
+            </div>
 
         </div>
 
@@ -141,6 +151,20 @@
                 $('#account-management-sidebar').toggleClass('active');
                 $('#sidebarCollapse').toggleClass('activeIcon');
                 $('#sidebarExpand').toggleClass('activeIcon');
+            });
+        });
+
+        $(document).ready(function () {
+            $('#selected-grant-access').on('click', function() {
+                $('#content-grant-access').toggle('selectedContent');
+                $('#content-password-settings').remove('selectedContent');
+            });
+        });
+
+        $(document).ready(function () {
+            $('#selected-password-settings').on('click', function() {
+                $('#content-password-settings').toggle('selectedContent');
+                $('#content-grant-access').remove('selectedContent');
             });
         });
 </script>
