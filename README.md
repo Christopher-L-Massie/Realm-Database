@@ -1,13 +1,15 @@
-# Realm-Database
+# Realm-Database (Deviatedelight.community)
 
-Keep track of the stories and people in your Realm.
+This website has been built to support the community of the deviate delight 
 
 # About
 
-Realm-Database is an attempt at making a program to help players in MMORPGs keep track of information about their realm that is unique to them. This includes:
+Realm-Database is an attempt at making a program to help players of deviate delight keep track of information about their realm that is unique to them. This includes:
 
           -Characters
           -Events
+          -Stories
+          -Gossip
           -Guilds
           
 # Features
@@ -23,13 +25,11 @@ Realm-Database is an attempt at making a program to help players in MMORPGs keep
 
 -Write books for others to read about the events that take place in your Realm
 
+-Organize and easily see what events are happening on deviate delight!
+
 # Behind the Scenes
 
--Supports any number of realms!
-
 -Built in a way that any game could make use of this.
-
--Built in Support for all World of Warcraft:Classic Realms
 
 # Dedication
 
