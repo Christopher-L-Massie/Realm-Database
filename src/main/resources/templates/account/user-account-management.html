@@ -76,8 +76,8 @@
                         </li>
                     </ul>
                 </li>
-                <li id="selected-grant-access">
-                    <a href="#">Grant Access</a>
+                <li>
+                    <a id="selected-grant-access" href="#">Grant Access</a>
                 </li>
                 <li>
                     <a href="#">Submit Suggestion</a>
@@ -161,15 +161,15 @@
 
         $(document).ready(function () {
             $('#selected-grant-access').on('click', function() {
-                $('#content-grant-access').toggle('selectedContent');
-                $('#content-password-settings').remove('selectedContent');
+                $('#content-grant-access').toggleClass('selectedContent');
+                $('#content-password-settings').removeClass('selectedContent');
             });
         });
 
         $(document).ready(function () {
             $('#selected-password-settings').on('click', function() {
-                $('#content-password-settings').toggle('selectedContent');
-                $('#content-grant-access').remove('selectedContent');
+                $('#content-password-settings').toggleClass('selectedContent');
+                $('#content-grant-access').removeClass('selectedContent');
             });
         });
 </script>
