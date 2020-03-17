@@ -825,16 +825,27 @@ a[data-toggle="collapse"] {
 /* !SELECTED - Grant Access Content! */
 /*------------------------------------*/
 
-#content-grant-access{
+#content-grant-access {
     visibility: hidden;
     margin-left: 100%;
 }
+
+#content-grant-access.selectedContent {visibility: hidden;}
 
 #content-grant-access,
 #content-grant-access h1 {
     color: black;
     display: flex;
     align-items: center;
+}
+
+/*-----------------------------------*/
+/* !SELECTED - Notification Settings */
+/*-----------------------------------*/
+
+#content-notification-settings {
+    visibility: hidden;
+    margin-left: 100%;
 }
 
 /*-------------------------------------*/
