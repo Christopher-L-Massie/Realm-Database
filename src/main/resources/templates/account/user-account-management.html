@@ -66,7 +66,7 @@
                     <a href="#settingsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Settings</a>
                     <ul class="collapse list-unstyled" id="settingsSubmenu">
                         <li>
-                            <a href="#">Notifications</a>
+                            <a id="selected-notification-settings" href="#">Notifications</a>
                         </li>
                         <li>
                             <a href="#">Email</a>
@@ -160,8 +160,8 @@
         });
 
         $(document).ready(function () {
-            $('#selected-grant-access').on('click', function() {
-                $('#content-grant-access').toggleClass('selectedContent');
+            $('#selected-notification-settings').on('click', function() {
+                $('#content-notification-settings').toggleClass('selectedContent');
                 $('#content-password-settings').removeClass('selectedContent');
             });
         });
@@ -169,7 +169,7 @@
         $(document).ready(function () {
             $('#selected-password-settings').on('click', function() {
                 $('#content-password-settings').toggleClass('selectedContent');
-                $('#content-grant-access').removeClass('selectedContent');
+                $('#content-notification-settings').removeClass('selectedContent');
             });
         });
 </script>
