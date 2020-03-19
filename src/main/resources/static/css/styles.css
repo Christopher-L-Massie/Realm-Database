@@ -830,7 +830,7 @@ a[data-toggle="collapse"] {
     margin-left: 100%;
 }
 
-#content-grant-access.selectedContent {visibility: hidden;}
+#content-grant-access.selectedContent {visibility: visible;}
 
 #content-grant-access,
 #content-grant-access h1 {
@@ -846,6 +846,15 @@ a[data-toggle="collapse"] {
 #content-notification-settings {
     visibility: hidden;
     margin-left: 100%;
+}
+
+#content-notification-settings.selectedContent {visibility: visible;}
+
+#content-notification-settings,
+#content-notification-settings h1 {
+    color: black;
+    display: flex;
+    align-items: center;
 }
 
 /*-------------------------------------*/
