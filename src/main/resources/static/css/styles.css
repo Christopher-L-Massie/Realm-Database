@@ -827,6 +827,10 @@ a[data-toggle="collapse"] {
     margin: 0px;
 }
 
+.content-box h1{
+    text-align:center;
+}
+
 /*-------------------------------------*/
 /* !SELECTED - Password Settings Content! */
 /*------------------------------------*/
