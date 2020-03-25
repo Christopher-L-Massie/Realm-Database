@@ -22,14 +22,13 @@ public class Realm {
 
     private String type;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<Faction> factions = new ArrayList<>();
 
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<Guild> guilds = new ArrayList<>();
 
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<Character> characters = new ArrayList<>();
+
+
+
+
+
 
     //|||Constructors|||
     public Realm(){}
@@ -48,17 +47,7 @@ public class Realm {
         return name;
     }
 
-    public List<Faction> getFactions() {
-        return factions;
-    }
 
-    public List<Guild> getGuilds() {
-        return guilds;
-    }
-
-    public List<Character> getCharacters() {
-        return characters;
-    }
 
     public TimeZone getTimeZone(){
         return this.timeZone;
