@@ -1,3 +1,4 @@
+/*
 $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
                 $('#account-management-sidebar').toggleClass('active');
@@ -25,4 +26,40 @@ $(document).ready(function () {
                 $('#content-password-settings').toggleClass('selectedContent');
                 $('#content-notification-settings').removeClass('selectedContent');
             });
-        });
+       } );
+*/
+
+
+
+function runApp(){
+
+    //Content
+    var contentBoxes = document.querySelectorAll('.content-box');
+
+    //Links to Open Content
+    var contentLinks = document.querySelectorAll('.contentLink');
+
+    function clearContent(){
+        for (var i = 0; i < contentLinks.length; i++) {
+            contentBoxes[i].removeClass('selectedContent');
+        }
+    }
+
+    contentLinks.addEventListener('click', clearContent);
+
+
+    function changeContent(){
+        if (!this.classList.contains('selectedContent')){
+            this.toggleClass('selectedContent');
+        }
+    };
+
+    for (var i = 0; i < contentLinks.length; i++){
+        contentLinks[i].addEventListener('click', changeContent);
+    };
+
+};
+
+runApp();
+
+//element.classList.contains(class);
