@@ -17,19 +17,15 @@ public class Guild {
 
     private String motto;
 
-    @ManyToOne(cascade = CascadeType.ALL)
-    private Faction faction;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<Character> members = new ArrayList<>();
 
     //|||Constructors|||
     public Guild(){}
 
-    public Guild(String name, String motto, Faction faction){
+    public Guild(String name, String motto){
         this.name = name;
         this.motto = motto;
-        this.faction = faction;
+
     }
 
     //|||Methods|||
@@ -44,11 +40,4 @@ public class Guild {
         return motto;
     }
 
-    public List<Character> getMembers() {
-        return members;
-    }
-
-    public Faction getFaction(){
-        return this.faction;
-    }
 }
