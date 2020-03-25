@@ -1,5 +1,23 @@
 /*
-$(document).ready(function () {
+
+
+        $(document).ready(function () {
+            $('#selected-notification-settings').on('click', function() {
+                $('#content-notification-settings').toggleClass('selectedContent');
+                $('#content-password-settings').removeClass('selectedContent');
+            });
+        });
+
+        $(document).ready(function () {
+            $('#selected-password-settings').on('click', function() {
+                $('#content-password-settings').toggleClass('selectedContent');
+                $('#content-notification-settings').removeClass('selectedContent');
+            });
+
+*/
+
+//Side Nav
+        $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
                 $('#account-management-sidebar').toggleClass('active');
                 $('#sidebarCollapse').toggleClass('activeIcon');
@@ -14,24 +32,9 @@ $(document).ready(function () {
             });
         });
 
-        $(document).ready(function () {
-            $('#selected-notification-settings').on('click', function() {
-                $('#content-notification-settings').toggleClass('selectedContent');
-                $('#content-password-settings').removeClass('selectedContent');
-            });
-        });
-
-        $(document).ready(function () {
-            $('#selected-password-settings').on('click', function() {
-                $('#content-password-settings').toggleClass('selectedContent');
-                $('#content-notification-settings').removeClass('selectedContent');
-            });
-       } );
-*/
 
 
 
-function runApp(){
 
     //Content
     var contentBoxes = document.querySelectorAll('.content-box');
@@ -40,12 +43,12 @@ function runApp(){
     var contentLinks = document.querySelectorAll('.contentLink');
 
     function clearContent(){
-        for (var i = 0; i < contentLinks.length; i++) {
+        for (var i = 0; i < contentBoxes.length; i++) {
             contentBoxes[i].removeClass('selectedContent');
         }
     }
 
-    contentLinks.addEventListener('click', clearContent);
+    contentBoxes.addEventListener('click', clearContent);
 
 
     function changeContent(){
@@ -58,8 +61,8 @@ function runApp(){
         contentLinks[i].addEventListener('click', changeContent);
     };
 
-};
 
-runApp();
+
+
 
 //element.classList.contains(class);
