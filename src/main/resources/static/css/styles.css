@@ -688,7 +688,7 @@ footer {
 
 .wrapper {
     display: flex;
-    align-items: stretch:
+    align-items: stretch;
 }
 
 .section-account-management a,
@@ -807,11 +807,14 @@ a[data-toggle="collapse"] {
 /* CONTENT OF ACCOUNT MANAGEMENT */
 /*-----------------------------*/
 
+#account-management-content {
+    width: 75%;
+}
+
 .content-container {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     position: relative;
-    margin: 20px;
 }
 
 .content-box {
