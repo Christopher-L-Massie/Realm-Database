@@ -34,8 +34,7 @@
 
 
 
-
-
+        /*
     //Content
     var contentBoxes = document.querySelectorAll('.content-box');
 
@@ -48,7 +47,7 @@
         }
     }
 
-    contentBoxes.addEventListener('click', clearContent);
+    //contentBoxes.addEventListener('click', clearContent);
 
 
     function changeContent(){
@@ -58,9 +57,13 @@
     };
 
     for (var i = 0; i < contentLinks.length; i++){
-        contentLinks[i].addEventListener('click', changeContent);
+        //contentLinks[i].addEventListener('click', changeContent);
     };
 
+    console.log(contentBoxes);
+    console.log(contentLinks);
+
+         */
 
 
 
