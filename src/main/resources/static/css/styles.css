@@ -834,13 +834,16 @@ a[data-toggle="collapse"] {
     text-align:center;
 }
 
+.content-box p {
+    display: flex;
+}
+
 /*-------------------------------------*/
 /* !SELECTED - Password Settings Content! */
 /*------------------------------------*/
 
 #content-password-settings{
     visibility: hidden;
-    margin-left: 100%;
 }
 
 #content-password-settings.selectedContent {visibility: visible;}
@@ -858,7 +861,6 @@ a[data-toggle="collapse"] {
 
 #content-grant-access {
     visibility: hidden;
-    margin-left: 100%;
 }
 
 #content-grant-access.selectedContent {visibility: visible;}
