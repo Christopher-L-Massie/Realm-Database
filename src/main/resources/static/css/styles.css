@@ -827,6 +827,17 @@ a[data-toggle="collapse"] {
     visibility: hidden;
 }
 
+.content-box input,
+.content-box select{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 2px 2px #937666;
+    box-shadow: 0 2px 2px #937666;
+}
+
 .stack-content {
     margin: 0px;
 }
