@@ -893,18 +893,6 @@ a[data-toggle="collapse"] {
 /* !SELECTED - Grant Access Content! */
 /*------------------------------------*/
 
-#content-grant-access {
-    visibility: hidden;
-}
-
-#content-grant-access.selectedContent {visibility: visible;}
-
-#content-grant-access,
-#content-grant-access h1 {
-    color: black;
-    display: flex;
-    align-items: center;
-}
 
 /*-----------------------------------*/
 /* !SELECTED - Notification Settings */
