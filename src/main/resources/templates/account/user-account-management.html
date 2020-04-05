@@ -178,7 +178,7 @@
 
                 <!-- !Grant Access Content --->
 
-                <div id="content-grant-access" class="content-box">
+                <div id="content-grant-access" class="content-box selectedContent">
                     <div class="col span-1-of-1">
                         <div>
                             <h1>Grant Access</h1>
@@ -205,13 +205,26 @@
 
                 <!-- !Submit Suggestion Content --->
 
-                <div id="content-submit-suggestion" class="content-box selectedContent">
+                <div id="content-submit-suggestion" class="content-box">
                     <div class="col span-1-of-1">
                         <div>
                             <h1>Submit Suggestion</h1>
                         </div>
                         <div>
                             <p>Submit a suggestion for a website feature or event you'd like to see! <br> Feedback is sent to community leaders!</p>
+                        </div>
+                        <div>
+                            <form>
+                                <label for="suggestionType">Suggestion Type</label>
+                                <select id="suggestionType">
+                                    <option value ="event">Future Event</option>
+                                    <option value="website">Website Feature</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="suggestionText">Describe your Suggestion!</label>
+                                <textarea id="suggestionText" placeholder="Use as much detail as you'd like!"></textarea>
+                                <input id="submit-suggestion-btn" type="submit" value="Submit Suggestion">
+                            </form>
                         </div>
                     </div>
                 </div>
