@@ -839,13 +839,25 @@ a[data-toggle="collapse"] {
 }
 
 .content-box input,
-.content-box select{
-    margin: auto;
+.content-box select,
+.content-box textarea{
+    margin: auto auto 2%;
     display: block;
     text-align: center;
     border-radius: 25px;
     -webkit-box-shadow: 0 2px 2px #937666;
     box-shadow: 0 2px 2px #937666;
+}
+
+.content-box label{
+    margin-bottom: 2%;
+}
+
+.content-box textarea{
+    resize: none;
+    height: 300px;
+    width: 600px;
+    text-align: center;
 }
 
 
