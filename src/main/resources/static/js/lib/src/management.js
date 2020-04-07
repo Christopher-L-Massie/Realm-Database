@@ -17,48 +17,40 @@
 */
 
 //Side Nav
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#account-management-sidebar').toggleClass('active');
-                $('#sidebarCollapse').toggleClass('activeIcon');
-                $('#sidebarExpand').toggleClass('activeIcon');
-            });
-        });
-        $(document).ready(function () {
-            $('#sidebarExpand').on('click', function() {
-                $('#account-management-sidebar').toggleClass('active');
-                $('#sidebarCollapse').toggleClass('activeIcon');
-                $('#sidebarExpand').toggleClass('activeIcon');
-            });
-        });
-
-
-
-
-    //Content
-    let contentBoxes = document.querySelectorAll('.content-box');
-
-    //Links to Open Content
-    let contentLinks = document.querySelectorAll('.contentLink');
-
-    //Swaps the displayed content
-    $(contentLinks).ready(function (){
-        for (let i = 0; i < contentLinks.length; i++) {
-            $(contentLinks[i]).on('click', function() {
-                for(let box = 0; box < contentBoxes.length; box++) {
-                    $(contentBoxes[box]).removeClass('selectedContent');
-                }
-                $(contentBoxes[i]).toggleClass('selectedContent');
-            });
-        }
+$(document).ready(function () {
+    $('#sidebarCollapse').on('click', function () {
+        $('#account-management-sidebar').toggleClass('active');
+        $('#sidebarCollapse').toggleClass('activeIcon');
+        $('#sidebarExpand').toggleClass('activeIcon');
     });
+});
+$(document).ready(function () {
+    $('#sidebarExpand').on('click', function() {
+        $('#account-management-sidebar').toggleClass('active');
+        $('#sidebarCollapse').toggleClass('activeIcon');
+        $('#sidebarExpand').toggleClass('activeIcon');
+    });
+});
 
-    console.log(contentBoxes);
-    console.log(contentLinks);
+//Content
+let contentBoxes = document.querySelectorAll('.content-box');
 
+//Links to Open Content
+let contentLinks = document.querySelectorAll('.contentLink');
 
+//Swaps the displayed content
+$(contentLinks).ready(function (){
+    for (let i = 0; i < contentLinks.length; i++) {
+        $(contentLinks[i]).on('click', function() {
+            for(let box = 0; box < contentBoxes.length; box++) {
+                $(contentBoxes[box]).removeClass('selectedContent');
+            }
+            $(contentBoxes[i]).toggleClass('selectedContent');
+        });
+    }
+});
 
-
-
+console.log(contentBoxes);
+console.log(contentLinks);
 
 //element.classList.contains(class);
