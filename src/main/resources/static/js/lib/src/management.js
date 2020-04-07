@@ -34,36 +34,48 @@
 
 
 
-        /*
+
     //Content
-    var contentBoxes = document.querySelectorAll('.content-box');
+    let contentBoxes = document.querySelectorAll('.content-box');
 
     //Links to Open Content
-    var contentLinks = document.querySelectorAll('.contentLink');
+    let contentLinks = document.querySelectorAll('.contentLink');
 
-    function clearContent(){
-        for (var i = 0; i < contentBoxes.length; i++) {
+    $(contentLinks).ready(function (){
+        for (let i = 0; i < contentLinks.length; i++) {
+            $(contentLinks[i]).on('click', function() {
+                for(let box = 0; box < contentBoxes.length; box++) {
+                    $(contentBoxes[box]).removeClass('selectedContent');
+                }
+                $(contentBoxes[i]).toggleClass('selectedContent');
+            });
+        }
+    });
+
+    /*
+    function changeContent(requestedContent){
+        for (let i = 0; i < contentBoxes.length; i++) {
             contentBoxes[i].removeClass('selectedContent');
         }
-    }
-
-    //contentBoxes.addEventListener('click', clearContent);
-
-
-    function changeContent(){
         if (!this.classList.contains('selectedContent')){
-            this.toggleClass('selectedContent');
+            requestedContent.toggleClass('selectedContent');
         }
     };
 
-    for (var i = 0; i < contentLinks.length; i++){
-        //contentLinks[i].addEventListener('click', changeContent);
+    for (let i=0; i< contentBoxes.length; i++){
+        contentBoxes[i].addEventListener('click',changeContent);
+    }
+
+    for (let i = 0; i < contentLinks.length; i++){
+        contentLinks[i].addEventListener('click', changeContent);
     };
 
+
+     */
     console.log(contentBoxes);
     console.log(contentLinks);
 
-         */
+
 
 
 
