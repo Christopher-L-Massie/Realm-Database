@@ -41,6 +41,7 @@
     //Links to Open Content
     let contentLinks = document.querySelectorAll('.contentLink');
 
+    //Swaps the displayed content
     $(contentLinks).ready(function (){
         for (let i = 0; i < contentLinks.length; i++) {
             $(contentLinks[i]).on('click', function() {
@@ -52,26 +53,6 @@
         }
     });
 
-    /*
-    function changeContent(requestedContent){
-        for (let i = 0; i < contentBoxes.length; i++) {
-            contentBoxes[i].removeClass('selectedContent');
-        }
-        if (!this.classList.contains('selectedContent')){
-            requestedContent.toggleClass('selectedContent');
-        }
-    };
-
-    for (let i=0; i< contentBoxes.length; i++){
-        contentBoxes[i].addEventListener('click',changeContent);
-    }
-
-    for (let i = 0; i < contentLinks.length; i++){
-        contentLinks[i].addEventListener('click', changeContent);
-    };
-
-
-     */
     console.log(contentBoxes);
     console.log(contentLinks);
 
