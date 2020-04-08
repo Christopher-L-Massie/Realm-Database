@@ -745,7 +745,11 @@ footer {
 .section-account-management ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #3D3A4B;
+    background: #3D3A4Bff;
+}
+
+.section-account-management ul ul a.activeContent {
+    background: #fff;
 }
 
 #account-management-sidebar.active{
@@ -798,11 +802,27 @@ a[data-toggle="collapse"] {
         margin-left: 0;
     }
 }
+
 .content-box {
     visibility: hidden;
 }
+
 .content-box.selectedContent {
     visibility: visible;
+}
+
+.content-box p:after {
+    display: block;
+    height: 2px;
+    background-color: #937666;
+    content: " ";
+    width: 200px;
+    margin: 30px auto 0;
+}
+
+.activeContent {
+    background: #ffffff !important;
+    color: #937666;
 }
 
 /*----------*/
@@ -859,7 +879,6 @@ a[data-toggle="collapse"] {
     width: 600px;
     text-align: center;
 }
-
 
 .stack-content {
     margin: 0px;
