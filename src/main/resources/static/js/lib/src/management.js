@@ -44,8 +44,10 @@ $(contentLinks).ready(function (){
         $(contentLinks[i]).on('click', function() {
             for(let box = 0; box < contentBoxes.length; box++) {
                 $(contentBoxes[box]).removeClass('selectedContent');
+                $(contentLinks[box]).parent().removeClass('activeContent');
             }
             $(contentBoxes[i]).toggleClass('selectedContent');
+            $(contentLinks[i]).parent().toggleClass('activeContent');
         });
     }
 });
