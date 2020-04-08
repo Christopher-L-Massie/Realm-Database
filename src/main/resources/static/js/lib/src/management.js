@@ -45,9 +45,11 @@ $(contentLinks).ready(function (){
             for(let box = 0; box < contentBoxes.length; box++) {
                 $(contentBoxes[box]).removeClass('selectedContent');
                 $(contentLinks[box]).parent().removeClass('activeContent');
+                $(contentLinks[box]).removeClass('activeContent');
             }
             $(contentBoxes[i]).toggleClass('selectedContent');
             $(contentLinks[i]).parent().toggleClass('activeContent');
+            $(contentLinks[i]).toggleClass('activeContent');
         });
     }
 });
