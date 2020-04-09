@@ -8,10 +8,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value = "")
 public class HomeController {
 
-    @RequestMapping(value = "")
+    @RequestMapping(value = "home")
     public String displayIndex(Model model){
         model.addAttribute("title", "Deviate Delight");
 
         return "home/index";
+    }
+
+    @RequestMapping(value="")
+    public String displayComingSoon(Model model){
+        model.addAttribute("title","Deviate Delight");
+
+        return "prelaunch/coming-soon";
     }
 }
