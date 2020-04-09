@@ -12,23 +12,13 @@ import org.springframework.ui.Model;
 @RequestMapping(value = "test")
 public class TestController {
 
-    @Autowired
-    public BookDao bookDao;
 
-    @RequestMapping(value = "book")
-    public String testCharacterCreator(Model model){
+    @RequestMapping(value = "soon")
+    public String testComingSoon(Model model){
+        model.addAttribute("title", "Deviate Delight");
 
-        Book newBook = new Book(1,"The Test");
-        newBook.createPage(1,"Hello a test book");
-        bookDao.save(newBook);
+        return "prelaunch/coming-soon";
 
-        for(Book book: bookDao.findAll()){
-           System.out.println(book);
-        }
-
-        System.out.println("hello");
-
-        return"Test/index";
     }
 
 
