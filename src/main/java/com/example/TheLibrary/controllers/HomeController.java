@@ -21,4 +21,11 @@ public class HomeController {
 
         return "prelaunch/coming-soon";
     }
+
+    @RequestMapping(value = "calendar")
+    public String displayRealmCalendar(Model model){
+        model.addAttribute("title","Event Calendar");
+
+        return "home/calendar";
+    }
 }
