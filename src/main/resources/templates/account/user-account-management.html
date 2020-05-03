@@ -35,7 +35,7 @@
         <!-- Sidebar -->
         <nav id="account-management-sidebar">
             <div class="account-management-sidebar-header">
-                <h3>Hello, Franquito!</h3>
+                <h3 th:inline="text">Hello, [[${#httpServletRequest.remoteUser}]]!</h3>
             </div>
 
             <ul class="list-unstyled components">
