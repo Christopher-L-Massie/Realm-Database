@@ -14,7 +14,7 @@
         </div>
         <div class="row">
             <div class="col span-1-of-1 box" id="enter-access-code">
-                <form>
+                <form th:action="@{/account/login}" method="post">
                     <label for="username">Username</label>
                     <input id="username" type="text" name="username" placeholder="Sharptusk">
                     <label for="login-pass">Password</label>
