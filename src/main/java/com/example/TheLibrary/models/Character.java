@@ -7,8 +7,8 @@ public class Character {
 
     //|||Properties|||
 
-
-
+    @Id
+    @GeneratedValue
     private String name;
 
     private int age;
